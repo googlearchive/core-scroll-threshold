@@ -1,6 +1,5 @@
 {
   "name": "core-scroll-threshold",
   "private": true,
-  "dependencies": {
-  }
+  "dependencies": {}
 }
