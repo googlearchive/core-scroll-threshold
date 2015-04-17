@@ -211,6 +211,8 @@ Fired when `lowerTriggered` becomes `true`.
      * Clear the upper threshold, following an `upper-trigger` event.
      *
      * @method clearUpper
+     * @param {boolean} waitForMutation If true then wait for a mutation event,
+     *     otherwise it will happen in the next animation frame.
      */
     clearUpper: function(waitForMutation) {
       if (waitForMutation) {
@@ -229,6 +231,8 @@ Fired when `lowerTriggered` becomes `true`.
      * Clear the lower threshold, following a `lower-trigger` event.
      *
      * @method clearLower
+     * @param {boolean} waitForMutation If true then wait for a mutation event,
+     *     otherwise it will happen in the next animation frame.
      */
     clearLower: function(waitForMutation) {
       if (waitForMutation) {
